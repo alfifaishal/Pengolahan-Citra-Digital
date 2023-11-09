@@ -1,1 +1,28 @@
-c
+Untuk membuat suatu model pengetahuan yang sudah dilatih khususnya dalam bentuk citra, 
+kita memerlukan pengolahan citra nya terlebih dahulu. Pada kodingan yang sudah tertera,
+terdapat berbagai cara pengolahan citra pada kodingan yang tertera, yaitu:
+
+1. Menampilkan Gambar dan Mengkonversinya
+   Untuk menampilkan gambar, gambar bisa diolah atau dikonversi terlebih dahulu,
+   oleh karena itu hasilnya dibagi lagi menjadi beberapa bagian, yaitu:
+   a. Original
+      Tampil gambar original sesuai dengan source gambar nya
+   b. Blue channel
+      Tampil gambar b&w dengan saluran warna biru dari gambar originalnya
+   c. Green channel
+      Tampil gambar b&w dengan saluran warna hijau dari gambar originalnya
+   d. Red channel
+      Tampil gambar b&w dengan saluran warna merah dari gambar originalnya
+   e. Invert
+      Tampil gambar dengan effect invert atau negatif
+   f. Bright Image
+      Tampil gambar dengan kecerahan yang ditambahkan dari gambar originalnya
+   g. Darken Image
+      Tampil gambar dengan kecerahan yang dikurangi dari gambar originalnya
+   
+2. Menampilkan Histogram dari Gambar Original & Gambar yang sudah dikonversi
+   Hasil dari histogram berbeda beda sesuai dengan gambar nya, baik yang original maupun 
+   yang sudah dikonversi. kita juga dapat mengatur jumlah bin dan rentang nya sehingga hasil
+   dari historgram nya berubah. selain itu, kita juga dapat memisah maupun menggabungkan
+   plot masing masing warna
+   
